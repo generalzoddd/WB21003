@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+body {
+    min-height: 120vh;
+    overflow-x: hidden;
+      background-image: url("thamarassery churam.jpg");
+      background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    z-index: 10000;
+}
+
+
+
+header ul {
+    display:flex;
+    width: 1000px;
+    left: 0;
+    justify-content: left;
+    position: absolute;
+    align-items: right;
+}
+
+header ul li {
+    list-style:none;
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+}
+
+header ul li a:hover,
+header ul li a.active
+{
+    background: white;
+    color: #2b1055;
+}
+
+.h2 {
+  margin-left: 20px;
+  color: #fff;
+}
+.deals {
+  width: 100%;
+  height: 900px;
+}
+
+.packages h2 {
+  color: #fff;
+  margin-top: 25%;
+}
+
+.packages p#book {
+  border: 1px solid black;
+  margin: auto;
+  width: 50%;
+  border-radius: 40px;
+  background-color: orange;
+  color: white;
+}
+#one{
+  float: left;
+  width:350px;
+  height: 275px;
+  font-family: 'Slabo 13px', serif;
+  margin-left: 300px;
+  transition: transform .2s;
+  background-color: white;
+  color: #fff;
+  border: 5px solid #000;
+  background-image: url("tripadvisor.jpg");
+  background-size: contain;
+  background-size: cover;
+  box-shadow: 0px 15px 20px rgba(0,0,0,.4);
+}
+
+#two{
+  float: left;
+  width:350px;
+  height: 275px;
+  font-family: 'Slabo 13px', serif;
+  margin-left: 200px;
+  transition: transform .2s;
+  background-color: white;
+  color: #fff;
+  border: 5px solid #000;
+  background-image: url("trivago.jpg");
+  background-size: contain;
+  background-size: cover;
+  box-shadow: 0px 15px 20px rgba(0,0,0,.4);
+}
+
+#three{
+  float: left;
+  width:350px;
+  height: 275px;
+  font-family: 'Slabo 13px', serif;
+  margin-left: 300px;
+  margin-top: 10px;
+  transition: transform .2s;
+  background-color: white;
+  border: 5px solid #000;
+color: #fff;
+background-image: url("wayanadtravel.jpg");
+background-size: contain;
+background-size: cover;
+box-shadow: 0px 15px 20px rgba(0,0,0,.4);
+}
+
+
+#four{
+  float: left;
+  width:350px;
+  height: 275px;
+  font-family: 'Slabo 13px', serif;
+  margin-left: 200px;
+  margin-top: 10px;
+  transition: transform .2s;
+  background-color: white;
+  border: 5px solid #000;
+color: #fff;
+background-image: url("thrillophia.jpg");
+background-size: contain;
+background-size: cover;
+box-shadow: 0px 15px 20px rgba(0,0,0,.4);
+}
+
+#five{
+  float: left;
+  width:350px;
+  height: 275px;
+  font-family: 'Slabo 13px', serif;
+  margin-left: 300px;
+  margin-top: 10px;
+  transition: transform .2s;
+  background-color: white;
+  border: 5px solid #000;
+color: #fff;
+background-image: url("holidify.jpg");
+background-size: contain;
+background-size: cover;
+box-shadow: 0px 15px 20px rgba(0,0,0,.4);
+}
+
+#six{
+  float: left;
+  width:350px;
+  height: 275px;
+  font-family: 'Slabo 13px', serif;
+  margin-left: 200px;
+  margin-top: 10px;
+  transition: transform .2s;
+  background-color: white;
+  border: 5px solid #000;
+color: #fff;
+background-image: url("yatra.jpg");
+background-size: contain;
+background-size: cover;
+box-shadow: 0px 15px 20px rgba(0,0,0,.4);
+
+}
+
+#deal {
+
+}
+
+.packages:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.25);
+}
+
+.contact {
+  width: 80%;
+  height: 40px;
+
+  color: #fff;
+
+  margin: auto;
+  margin-top: 50px;
+}
+
+.socialmedia {
+  background-color: none;
+  height: 30%;
+  color: #fff;
+  font-size:x-large;
+  width: 100%;
+}
+.socialmedia img {
+  width: 70px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.socialmedia img#fb {
+  padding: 0;
+  margin-left: 4%;
+}
+
+.end {
+  height: 30px;
+  background-color: none;
+}

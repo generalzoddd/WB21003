@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+
+}
+.first {
+    width: 100%;
+    background-image: url(history.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size: 100%;
+
+}
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    z-index: 10000;
+}
+
+
+
+header ul {
+    display:flex;
+    width: 500px;
+    left: 0;
+    justify-content: left;
+    position: absolute;
+    align-items: right;
+}
+
+header ul li {
+    list-style:none;
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+}
+
+header ul li a:hover,
+header ul li a.active
+{
+    background: white;
+    color: #2b1055;
+}
+
+.first h1 {
+    font-size:130px;
+    color:aqua ;
+}
+.first p {
+    color: seashell;
+    letter-spacing: 2%;
+    height: fit-content;
+}
+
+.second {
+    width: 100%;
+    background-image: url(festival.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size: 100%;
+}
+.second h1 {
+    font-size:130px;
+    color:aqua ;
+}
+.second p {
+    color: seashell;
+    letter-spacing: 2%;
+    height: fit-content;
+}
+.paraspace {
+    height: 200px;
+}
+.socialmedia {
+    background: black;
+    height: 30%;
+    color: #fff;
+    font-size:x-large;
+    width: 100%;
+}
+.socialmedia img {
+    width: 70px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.socialmedia img#fb {
+    padding: 0;
+    margin-left: 4%;
+}
